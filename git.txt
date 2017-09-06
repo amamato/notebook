@@ -1,0 +1,19 @@
+#NOTES ABOUT GIT
+
+#Create a Repository
+git init
+
+#Add to Staging area
+git add <fileName>
+
+#Look at what's in the staging area
+git st or git status
+
+#Commit a change to the History
+git commit -m 'notes about the commit here'
+
+#Show history
+git log, git la, git ll
+
+#Read a specific man page by creating kabob case
+man git-commit
