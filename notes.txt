@@ -1,0 +1,38 @@
+#Make Directory
+mkdir
+
+#Create File
+touch filename.txt
+
+#Edit File
+nano filename.txt
+
+#Save in nano
+Ctrl + 0 or ctrl + Exit
+
+#Read File
+cat filename.txt
+
+#Copy File
+cp filename1.txt filename2.xyz
+
+#Rename/Move
+mv filename.txt newFileName.txt
+mv file/filename.txt newloc/newFileName.txt
+
+#remove file
+rm file name
+
+#remove directory
+rmdir, or you can do rm -r directory name/, just make sure you're not in the directory
+
+#Redirection: Taking an output from command line and place it in a file
+##Complete output, repetitive use always clears content and rewrites entirely
+sourceFile > outputFile
+
+##Appending output
+sourceFile >> outputFile
+
+
+#Piping or chaining things together, ie multiple commands at once
+head -n 20 fileName.txt | tail -n 10 | grep cd
