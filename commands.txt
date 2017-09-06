@@ -1,0 +1,191 @@
+    1  ls ~
+    2  xcode-select --install
+    3  xcode-select --install
+    4  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+    5  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+    6  brew analytics off
+    7  brew help
+    8  brew install bash
+    9  echo '/usr/local/bin/bash' | sudo tee -a /etc/shells
+   10  chsh -s /usr/local/bin/bash
+   11  bash -version
+   12  curl -fsSL https://git.io/v50Ta | ruby
+   13  ls
+   14  Desktop
+   15  Desktop/
+   16  ls
+   17  Desktop/
+   18  brew install git
+   19  git --version
+   20  brew install bash-completion
+   21  curl -fsSL https://git.io/v504A | ruby
+   22  git config --global user.name 'Andrea Bahr'
+   23  git config --global user.email amatoand@amazon.com
+   24  git config --list
+   25  curl -fsSL https://git.io/v500H | sh
+   26  git config --list
+   27  java -version
+   28  java -version
+   29  java -version
+   30  java -version
+   31  whoami
+   32  ls ~
+   33  ls
+   34  ls /amatoand/
+   35  ls /Users/amatoand/
+   36  ls .
+   37  cd Desktop/
+   38  ls .
+   39  cd ~
+   40  ls
+   41  open .
+   42  cd Desktop/
+   43  open .
+   44  ls -l
+   45  cd
+   46  ls -l
+   47  ls -h
+   48  ls -hl
+   49  ll
+   50  ls -hal
+   51  ls -a
+   52  man
+   53  ls
+   54  man ls
+   55  ls -s
+   56  ls -S
+   57  ls -Sl
+   58  ls -R
+   59  ls -Sl
+   60  man cd
+   61  env
+   62  echo $SHELL
+   63  ll
+   64  ll /usr/bin/
+   65  ls /bin/
+   66  echo $EDITOR
+   67  nano ~/.bash_profile
+   68  cat ~/.bash_profile
+   69  man ls
+   70  echo $EDITOR
+   71  echo $SHELL
+   72  brew install tree
+   73  tree ~
+   74  tree -L 1~
+   75  cd /
+   76  ll
+   77  ll ~/Applications/
+   78  cd ~
+   79  la
+   80  cd ../..
+   81  cd ...
+   82  cd ..
+   83  cd ../../../../../
+   84  cd
+   85  cd Users/amatoand/
+   86  pwd
+   87  /
+   88  CRUD
+   89  mkdir /Projects
+   90  ..
+   91  ..
+   92  cd
+   93  CRUD
+   94  mkdir ~/Projects
+   95  cd ~/Projects
+   96  mkdir week01
+   97  cd week01
+   98  mkdir notebook
+   99  touch notes.txt
+  100  s
+  101  ls
+  102  ls notes.txt
+  103  cat notes.txt
+  104  nano notes.txt
+  105  cd- 
+  106  cd -
+  107  cd--
+  108  cd --
+  109  /
+  110  /volumes
+  111  pwd
+  112  la
+  113  mkdir ~/Projects
+  114  cd Projects
+  115  ls
+  116  rm week01
+  117  y
+  118  ..
+  119  Projects
+  120  cd week01
+  121  echo $?
+  122  mkdir notebook
+  123  mkdir ~/notebook
+  124  cd notebook
+  125  touch notes.txt
+  126  ll
+  127  touch notes.txt
+  128  cat notes.txt
+  129  nano notes.txt
+  130  cat notes.txt
+  131  mv notes.txt commands.txt
+  132  mv commands.txt notes.txt
+  133  rm notes.txt
+  134  rmdir week01
+  135  rmdir week01/
+  136  rmdir ~/notebook
+  137  ls
+  138  man rmdir
+  139  man rm
+  140  rm -r notebook/
+  141  cd week01
+  142  mkdir week01
+  143  cd week01
+  144  rm -r notebook
+  145  rm -r notebook/
+  146  ..
+  147  ..
+  148  .
+  149  cd
+  150  rm -r notebook/
+  151  rm -r ./notebook/
+  152  cd notebook/
+  153  cd ~/notebook
+  154  s
+  155  ls
+  156  ll
+  157  cd Documents
+  158  ls
+  159  ll
+  160  cd Projects
+  161  CD Projects
+  162  cd ~/Projects
+  163  ll
+  164  rm -r week01/
+  165  ls
+  166  mkdir week01
+  167  ll
+  168  cd week01
+  169  mkdir notebook
+  170  cd notebook
+  171  touch notes.txt
+  172  nano notes.txt
+  173  cat
+  174  cat notes.txt
+  175  mkdir temp
+  176  rmdir temp
+  177  mkdir temp
+  178  ls
+  179  rm -r temp/
+  180  ls
+  181  nano notes.txt
+  182  cat notes.txt
+  183  mkdir -p bash/nano
+  184  ll
+  185  cp -r bash fish
+  186  ll
+  187  nano notes.txt
+  188  history
+  189  clear
+  190  clear
+  191  history > commands.txt
